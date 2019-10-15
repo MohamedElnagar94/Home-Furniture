@@ -1,0 +1,573 @@
+/* start home page */
+
+.bg-image-header-home-page{
+    background-image: url(../images/slideshow3_1920x947.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 692px;
+}
+.main-color{
+    color: #f9b61e;
+}
+.main-bg-color{
+    background: #f9b61e;
+}
+.nav-bar li{
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+}
+.font-image{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    padding: 20px;
+}
+.w-24{
+    width: 24%;
+}
+.card-num{
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: red;
+    text-align: center;
+    top: 15px;
+    right: 5px;
+}
+.arrow-left{
+    position: absolute;
+    left: 40px;
+    font-size: 90px;
+    top: 40%;
+}
+.arrow-right{
+    position: absolute;
+    right: 40px;
+    font-size: 90px;
+    top: 40%;
+    text-align: right;
+}
+.slide-header{
+    text-align: center;
+    width: 100%;
+    /* position: absolute; */
+    top: 40%;
+    font-size: 25px;
+    color: #f9b61e;
+    padding-top: 18%;
+}
+.FeaturedCategories{
+    border-left: 2px solid #f9b61e;
+    padding: 10px;
+    font-size: 25px;
+    padding-left: 40px;
+}
+.categories{
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px dashed gray;
+}
+.categories span:first-child{
+    font-size: 35px;
+    color: #f9b61e;
+    margin-right: 15px;
+    font-weight: bold;
+}
+.categories span:last-child{
+    font-size: 20px;
+}
+.allCategories{
+    margin-top: 10px;
+}
+.allCategories button{
+    width: 100%;
+    padding: 20px 0;
+    background: white;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.allCategories button:hover{
+    background: #f9b61e;
+    border: 2px solid #f9b61e;
+    color: white;
+    cursor: pointer;
+}
+.rooms{
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    padding: 9px;
+    background: #f9b61e;
+    opacity: .5;
+    /*color: white;*/
+}
+.allRooms:hover .rooms{
+    opacity: 1;
+}
+.w-33{
+    width: 33%;
+}
+.bg-color{
+    background: #F3F3F3;
+}
+.h3-sofas{
+    padding: 20px;
+    border-left: 2px solid #f9b61e;
+}
+.text-line-through{
+    text-decoration: line-through;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+.color-black{
+    color: black;
+}
+.color-gray{
+    color: gray;
+}
+.product-1 a:hover{
+    color: #f9b61e;
+}
+.img-product-1{
+    background-image: url(../images/wow_product_1_170x201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+}
+.product-2 a:hover{
+    color: #f9b61e;
+}
+.img-product-2{
+    background-image: url(../images/wow_product_5_170x201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+}
+.product-3 a:hover{
+    color: #f9b61e;
+}
+.img-product-3{
+    background-image: url(../images/wow_product_15_170x201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+}
+.product-4 a:hover{
+    color: #f9b61e;
+}
+.img-product-4{
+    background-image: url(../images/wow_product_21_170x201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+}
+.product-5 a:hover{
+    color: #f9b61e;
+}
+.img-product-5{
+    background-image: url(../images/wow_product_46_270x320.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+}
+.product-6 a:hover{
+    color: #f9b61e;
+}
+.img-product-6{
+    background-image: url(../images/wow_product_36_270x320.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+}
+.product-7 a:hover{
+    color: #f9b61e;
+}
+.img-product-7{
+    background-image: url(../images/wow_product_7_270x320.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+}
+.product-8 a:hover{
+    color: #f9b61e;
+}
+.img-product-8{
+    background-image: url(../images/wow_product_10_210x249.jpg);
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    width: 100%;
+    height: 320px;
+}
+.product-9 a:hover{
+    color: #f9b61e;
+}
+.img-product-9{
+    background-image: url(../images/wow_product_12_210x249.jpg);
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    width: 100%;
+    height: 320px;
+}
+.product-10 a:hover{
+    color: #f9b61e;
+}
+.img-product-10{
+    background-image: url(../images/wow_product_23_210x249.jpg);
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    width: 100%;
+    height: 320px;
+}
+.product-11 a:hover{
+    color: #f9b61e;
+}
+.img-product-11{
+    background-image: url(../images/wow_product_44_210x249.jpg);
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    width: 100%;
+    height: 320px;
+}
+.img-product-1 span:first-child,
+.img-product-2 span:first-child,
+.img-product-3 span:first-child,
+.img-product-4 span:first-child,
+.img-product-5 span:first-child,
+.img-product-6 span:first-child,
+.img-product-7 span:first-child,
+.img-product-8 span:first-child,
+.img-product-9 span:first-child,
+.img-product-10 span:first-child,
+.img-product-11 span:first-child{
+    padding: 7px 10px;
+    border-radius: 15%;
+}
+.img-product-1 span:last-child,
+.img-product-2 span:last-child,
+.img-product-3 span:last-child,
+.img-product-4 span:last-child,
+.img-product-5 span:last-child,
+.img-product-6 span:last-child,
+.img-product-7 span:last-child,
+.img-product-8 span:last-child,
+.img-product-9 span:last-child,
+.img-product-10 span:last-child,
+.img-product-11 span:last-child{
+    width: 35px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+    visibility: hidden;
+}
+.img-disc{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.product-1,
+.product-2,
+.product-3,
+.product-4,
+.product-5,
+.product-6,
+.product-7,
+.product-8,
+.product-9,
+.product-10,
+.product-11{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.product-1:hover .img-product-1{
+    background-image: url(../images/wow_product_2_170x201.jpg);
+}
+.product-1:hover{
+    /*border: 1px solid gray;*/
+}
+.product-1:hover .img-shopping-card{
+    visibility: visible;
+}
+.product-1:hover .img-love{
+    visibility: visible;
+}
+.product-1:hover .img-product-1 span:last-child{
+    visibility: visible;
+}
+.product-2:hover .img-product-2{
+    background-image: url(../images/wow_product_6_170x201.jpg);
+}
+.product-2:hover{
+    /*border: 1px solid gray;*/
+}
+.product-2:hover .img-shopping-card{
+    visibility: visible;
+}
+.product-2:hover .img-love{
+    visibility: visible;
+}
+.product-2:hover .img-product-2 span:last-child{
+    visibility: visible;
+}
+.product-3:hover .img-product-3{
+    background-image: url(../images/wow_product_18_170x201.jpg);
+}
+.product-3:hover{
+    /*border: 1px solid gray;*/
+}
+.product-3:hover .img-shopping-card{
+    visibility: visible;
+}
+.product-3:hover .img-love{
+    visibility: visible;
+}
+.product-3:hover .img-product-3 span:last-child{
+    visibility: visible;
+}
+.product-4:hover .img-product-4{
+    background-image: url(../images/wow_product_22_170x201.jpg);
+}
+.product-4:hover{
+    /*border: 1px solid gray;*/
+}
+.product-4:hover .img-shopping-card{
+    visibility: visible;
+}
+.product-4:hover .img-love{
+    visibility: visible;
+}
+.product-4:hover .img-product-4 span:last-child{
+    visibility: visible;
+}
+.product-5:hover .img-product-5{
+    background-image: url(../images/wow_product_47_270x320.jpg);
+}
+.product-5:hover{
+    /*border: 1px solid gray;*/
+}
+.product-5:hover .img-shopping-card{
+    visibility: visible;
+}
+.product-5:hover .img-love{
+    visibility: visible;
+}
+.product-5:hover .img-product-5 span:last-child{
+    visibility: visible;
+}
+.product-6:hover .img-product-6{
+    background-image: url(../images/wow_product_37_270x320.jpg);
+}
+.product-6:hover{
+    /*border: 1px solid gray;*/
+}
+.product-6:hover .img-shopping-card{
+    visibility: visible;
+}
+.product-6:hover .img-love{
+    visibility: visible;
+}
+.product-6:hover .img-product-6 span:last-child{
+    visibility: visible;
+}
+.product-7:hover .img-product-7{
+    background-image: url(../images/wow_product_19_270x320.jpg);
+}
+.product-7:hover{
+    /*border: 1px solid gray;*/
+}
+.product-7:hover .img-shopping-card{
+    visibility: visible;
+}
+.product-7:hover .img-love{
+    visibility: visible;
+}
+.product-7:hover .img-product-7 span:last-child{
+    visibility: visible;
+}
+.product-8:hover .img-product-8{
+    background-image: url(../images/wow_product_11_210x249.jpg);
+}
+.product-8:hover{
+    /*border: 1px solid gray;*/
+}
+.product-8:hover .img-shopping-card{
+    visibility: visible;
+}
+.product-8:hover .img-love{
+    visibility: visible;
+}
+.product-8:hover .img-product-8 span:last-child{
+    visibility: visible;
+}
+.product-9:hover .img-product-9{
+    background-image: url(../images/wow_product_14_210x249.jpg);
+}
+.product-9:hover{
+    /*border: 1px solid gray;*/
+}
+.product-9:hover .img-shopping-card{
+    visibility: visible;
+}
+.product-9:hover .img-love{
+    visibility: visible;
+}
+.product-9:hover .img-product-9 span:last-child{
+    visibility: visible;
+}
+.product-10:hover .img-product-10{
+    background-image: url(../images/wow_product_24_210x249.jpg);
+}
+.product-10:hover{
+    /*border: 1px solid gray;*/
+}
+.product-10:hover .img-shopping-card{
+    visibility: visible;
+}
+.product-10:hover .img-love{
+    visibility: visible;
+}
+.product-10:hover .img-product-10 span:last-child{
+    visibility: visible;
+}
+.product-11:hover .img-product-11{
+    background-image: url(../images/wow_product_45_210x249.jpg);
+}
+.product-11:hover{
+    /*border: 1px solid gray;*/
+}
+.product-11:hover .img-shopping-card{
+    visibility: visible;
+}
+.product-11:hover .img-love{
+    visibility: visible;
+}
+.product-11:hover .img-product-11 span:last-child{
+    visibility: visible;
+}
+.img-shopping-card{
+    width: 30px;
+    visibility: hidden;
+}
+.img-love{
+    width: 30px;
+    visibility: hidden;
+}
+.all-arrow{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 60px;
+}
+
+/* end home page */
+
+/* start contact us */
+
+.bg-image-header{
+    background-image: url(../images/bg_breadcrumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 240px;
+}
+.w-21{
+    width: 21%;
+}
+.form-control{
+    height: 40px;
+    text-indent: 20px;
+    font-size: 15px;
+}
+.form-control-textarea{
+    text-indent: 20px;
+    font-size: 15px;
+    padding-top: 10px;
+    resize: vertical;
+    height: 200px;
+    overflow: auto;
+}
+input[type="submit"]{
+    border: none;
+    background: #252525;
+    color: white;
+}
+input[type="submit"]:hover{
+    background: #f9b61e;
+    cursor: pointer;
+}
+
+/* end contact us */
+
+/* start about us */
+
+.line-height-30{
+    line-height: 30px;
+}
+.line-height-25{
+    line-height: 25px;
+}
+
+/* end about us */
+
+/* start login*/
+
+.bg-black{
+    background: black;
+}
+.create-account:hover{
+    background: #f9b61e;
+}
+
+/* end login */
+
+
+/* start product*/
+
+.w-40{
+    width: 40%;
+}
+.border-change:hover{
+    border: 1px solid #f9b61e;
+    cursor: pointer;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.all-about-product ul{
+    list-style: none;
+}
+.all-about-product ul li{
+    display: inline-block;
+}
+.all-about-product ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px 25px;
+}
+.all-about-product ul li a:hover{
+    color: #f9b61e;
+}
+.all-about-product ul li:first-child a{
+    color: #f9b61e;
+}
+
+/* end product*/
